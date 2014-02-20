@@ -6,6 +6,18 @@
 // project.
 
 
+// ProductCore
+#define COCOAPODS_POD_AVAILABLE_ProductCore
+#define COCOAPODS_VERSION_MAJOR_ProductCore 0
+#define COCOAPODS_VERSION_MINOR_ProductCore 1
+#define COCOAPODS_VERSION_PATCH_ProductCore 0
+
+// ThemeProduct
+#define COCOAPODS_POD_AVAILABLE_ThemeProduct
+#define COCOAPODS_VERSION_MAJOR_ThemeProduct 0
+#define COCOAPODS_VERSION_MINOR_ThemeProduct 1
+#define COCOAPODS_VERSION_PATCH_ThemeProduct 0
+
 // Typhoon
 #define COCOAPODS_POD_AVAILABLE_Typhoon
 #define COCOAPODS_VERSION_MAJOR_Typhoon 1

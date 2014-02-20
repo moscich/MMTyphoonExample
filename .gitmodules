@@ -1,3 +1,9 @@
 [submodule "Submodules/ProductCore"]
 	path = Submodules/ProductCore
 	url = https://moscich@bitbucket.org/moscich/coreproduct.git
+[submodule "Submodules/ThemeProduct"]
+	path = Submodules/ThemeProduct
+	url = https://moscich@bitbucket.org/moscich/themeproduct.git
+[submodule "Submodules/ProductTheme"]
+	path = Submodules/ProductTheme
+	url = https://moscich@bitbucket.org/moscich/themeproduct.git

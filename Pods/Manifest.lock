@@ -1,12 +1,26 @@
 PODS:
+  - ProductCore (0.1.0):
+    - Typhoon
+  - ThemeProduct (0.1.0):
+    - Typhoon
   - Typhoon (1.8.0):
     - Typhoon/no-arc
   - Typhoon/no-arc (1.8.0)
 
 DEPENDENCIES:
+  - ProductCore (from `Submodules/ProductCore/ProductCore.podspec`)
+  - ThemeProduct (from `Submodules/ProductTheme/ThemeProduct.podspec`)
   - Typhoon
 
+EXTERNAL SOURCES:
+  ProductCore:
+    :path: Submodules/ProductCore/ProductCore.podspec
+  ThemeProduct:
+    :path: Submodules/ProductTheme/ThemeProduct.podspec
+
 SPEC CHECKSUMS:
+  ProductCore: 469bf981331fbab75a778ea0a65524189813333d
+  ThemeProduct: 8f581696ba1b6e2f4797b5c6474a1a898f994578
   Typhoon: 15463de5bb1d5b65d7d59e4a85414002cd2da937
 
 COCOAPODS: 0.29.0
