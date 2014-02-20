@@ -1,0 +1,3 @@
+[submodule "Submodules/ProductCore"]
+	path = Submodules/ProductCore
+	url = https://moscich@bitbucket.org/moscich/coreproduct.git
