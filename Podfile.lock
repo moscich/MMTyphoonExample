@@ -1,4 +1,6 @@
 PODS:
+  - AlternativeTheme (0.1.0):
+    - ProductCore
   - ProductCore (0.1.0):
     - Typhoon
   - ThemeProduct (0.1.0):
@@ -12,21 +14,21 @@ PODS:
     - Typhoon
 
 DEPENDENCIES:
-  - ProductCore (from `Submodules/ProductCore/ProductCore.podspec`)
-  - ThemeProduct (from `Submodules/ProductTheme/ThemeProduct.podspec`)
+  - AlternativeTheme (from `Submodules/AlternativeTheme/AlternativeTheme.podspec`)
+  - ProductCore
+  - ThemeProduct
   - TyphoonViewControllers (from `Submodules/TyphoonViewControllers/TyphoonViewControllers.podspec`)
 
 EXTERNAL SOURCES:
-  ProductCore:
-    :path: Submodules/ProductCore/ProductCore.podspec
-  ThemeProduct:
-    :path: Submodules/ProductTheme/ThemeProduct.podspec
+  AlternativeTheme:
+    :path: Submodules/AlternativeTheme/AlternativeTheme.podspec
   TyphoonViewControllers:
     :path: Submodules/TyphoonViewControllers/TyphoonViewControllers.podspec
 
 SPEC CHECKSUMS:
+  AlternativeTheme: f473f02d6f2df40a216a3a76cf50cf0228aa6011
   ProductCore: 469bf981331fbab75a778ea0a65524189813333d
-  ThemeProduct: 37b5862e624ee825cfb389d537b264cc150244d3
+  ThemeProduct: 4dadcb0529f5d35badcb782252ec312a919ca49e
   Typhoon: 15463de5bb1d5b65d7d59e4a85414002cd2da937
   TyphoonViewControllers: 8c398e5611f7ef21518b1ed5ff0a75d15e11ceb0
 

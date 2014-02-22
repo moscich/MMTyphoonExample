@@ -13,3 +13,6 @@
 [submodule "Submodules/AlternativeTheme"]
 	path = Submodules/AlternativeTheme
 	url = https://moscich@bitbucket.org/moscich/alternativetheme.git
+[submodule "Submodules/ExtraViewControllers"]
+	path = Submodules/ExtraViewControllers
+	url = https://moscich@bitbucket.org/moscich/extraviewcontrollers.git

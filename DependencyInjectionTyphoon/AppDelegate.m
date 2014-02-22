@@ -11,8 +11,8 @@
 #import "TyphoonBlockComponentFactory.h"
 #import "TyphoonViewControllers.h"
 #import "ThemeProduct.h"
-#import "FirstViewController.h"
 #import "MainViewController.h"
+#import "AlternativeTheme.h"
 
 @implementation AppDelegate
 
@@ -24,8 +24,9 @@
     [self.window makeKeyAndVisible];
 
     TyphoonComponentFactory* factory = [TyphoonBlockComponentFactory factoryWithAssemblies:@[
-            [TyphoonViewControllers assembly],
-            [ThemeProduct assembly]
+//            [ThemeProduct assembly],
+            [AlternativeTheme assembly],
+            [TyphoonViewControllers assembly]
     ]];
 
     [factory makeDefault];
