@@ -7,3 +7,9 @@
 [submodule "Submodules/ProductTheme"]
 	path = Submodules/ProductTheme
 	url = https://moscich@bitbucket.org/moscich/themeproduct.git
+[submodule "Submodules/TyphoonViewControllers"]
+	path = Submodules/TyphoonViewControllers
+	url = https://moscich@bitbucket.org/moscich/typhoonviewcontrollers.git
+[submodule "Submodules/AlternativeTheme"]
+	path = Submodules/AlternativeTheme
+	url = https://moscich@bitbucket.org/moscich/alternativetheme.git

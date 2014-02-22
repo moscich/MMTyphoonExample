@@ -7,6 +7,12 @@
 //
 
 #import "AppDelegate.h"
+#import "TyphoonComponentFactory.h"
+#import "TyphoonBlockComponentFactory.h"
+#import "TyphoonViewControllers.h"
+#import "ThemeProduct.h"
+#import "FirstViewController.h"
+#import "MainViewController.h"
 
 @implementation AppDelegate
 
@@ -16,6 +22,21 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+
+    TyphoonComponentFactory* factory = [TyphoonBlockComponentFactory factoryWithAssemblies:@[
+            [TyphoonViewControllers assembly],
+            [ThemeProduct assembly]
+    ]];
+
+    [factory makeDefault];
+
+    MainViewController *mainViewController = [[MainViewController alloc] initWithNibName:@"MainView" bundle:nil];
+
+    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:mainViewController];
+
+    self.window.rootViewController = navigationController;
+    [self.window addSubview:navigationController.view];
+
     return YES;
 }
 

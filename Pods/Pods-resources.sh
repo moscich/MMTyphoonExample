@@ -41,6 +41,9 @@ install_resource()
       ;;
   esac
 }
+install_resource "../Submodules/ProductTheme/Assets/minion-logo@2x.jpg"
+install_resource "../Submodules/TyphoonViewControllers/Assets/DefaultView.xib"
+install_resource "../Submodules/TyphoonViewControllers/Assets/SecondView.xib"
 
 rsync -avr --copy-links --no-relative --exclude '*/.svn/*' --files-from="$RESOURCES_TO_COPY" / "${CONFIGURATION_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"
 if [[ "${ACTION}" == "install" ]]; then

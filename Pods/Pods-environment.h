@@ -30,3 +30,9 @@
 #define COCOAPODS_VERSION_MINOR_Typhoon_no_arc 8
 #define COCOAPODS_VERSION_PATCH_Typhoon_no_arc 0
 
+// TyphoonViewControllers
+#define COCOAPODS_POD_AVAILABLE_TyphoonViewControllers
+#define COCOAPODS_VERSION_MAJOR_TyphoonViewControllers 0
+#define COCOAPODS_VERSION_MINOR_TyphoonViewControllers 1
+#define COCOAPODS_VERSION_PATCH_TyphoonViewControllers 0
+

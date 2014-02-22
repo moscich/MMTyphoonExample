@@ -12,12 +12,14 @@
 		49F44439F8CD1AA2B117CD12 /* DependencyInjectionTyphoonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F447D4CB1A596DAAB290D8 /* DependencyInjectionTyphoonTests.m */; };
 		49F444516C10353D8BE2A910 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49F4498B9427C7BBE9BF050E /* UIKit.framework */; };
 		49F444D3A2F68A23BB7EE0B5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 49F446765A69EA63EDE4C7EC /* InfoPlist.strings */; };
+		49F445DB66170C9735B46A0E /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F44C5C3A4953B8D48ED181 /* MainViewController.m */; };
 		49F44858DFD5E3F01D60928E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F4490704A270F8226D6028 /* AppDelegate.m */; };
 		49F448A3F29432DA03FF56C9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 49F44F2E556EC7C8F9FBAE0E /* InfoPlist.strings */; };
 		49F44990C7D2A07609535AC5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49F4498B9427C7BBE9BF050E /* UIKit.framework */; };
 		49F44A0AB0DF4A22652CE1BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49F44C2A53AAAEACA046D5F9 /* Foundation.framework */; };
 		49F44A6E559AD64F1AC3A4ED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49F44D469330458EDD36E0A2 /* Images.xcassets */; };
 		49F44B33E541BC29CBEBC21D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F441E64B0AB596272EF223 /* main.m */; };
+		49F44B4517B8A6A86F6DFD8B /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49F44A97F70EC6748280AC14 /* MainView.xib */; };
 		49F44B733242A802CF91D269 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49F446739FD5682EE0C9EEE9 /* CoreGraphics.framework */; };
 		49F44F6D2B474F92FA3AA3AD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49F44895D56ADD5C0E287FA9 /* XCTest.framework */; };
 /* End PBXBuildFile section */
@@ -38,6 +40,7 @@
 		49F4453527AD77F21F742301 /* DependencyInjectionTyphoon-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "DependencyInjectionTyphoon-Info.plist"; sourceTree = "<group>"; };
 		49F4463CB9133D58E44EC936 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		49F446739FD5682EE0C9EEE9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		49F4468B612B5CC96D0CA52A /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		49F446F218B59512D5E52D1C /* DependencyInjectionTyphoon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DependencyInjectionTyphoon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49F447D4CB1A596DAAB290D8 /* DependencyInjectionTyphoonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DependencyInjectionTyphoonTests.m; sourceTree = "<group>"; };
 		49F44895D56ADD5C0E287FA9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -45,8 +48,10 @@
 		49F4490704A270F8226D6028 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		49F4493E801A80668AA9FEA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		49F4498B9427C7BBE9BF050E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		49F44A97F70EC6748280AC14 /* MainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
 		49F44BF15D1BC712A7A290D4 /* DependencyInjectionTyphoonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DependencyInjectionTyphoonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		49F44C2A53AAAEACA046D5F9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		49F44C5C3A4953B8D48ED181 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		49F44D469330458EDD36E0A2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		49F44DE12D07F3923D511A98 /* DependencyInjectionTyphoon-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DependencyInjectionTyphoon-Prefix.pch"; sourceTree = "<group>"; };
 		C3974882AAAB4B688271F760 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -114,6 +119,9 @@
 				49F4463CB9133D58E44EC936 /* AppDelegate.h */,
 				49F4490704A270F8226D6028 /* AppDelegate.m */,
 				49F44D469330458EDD36E0A2 /* Images.xcassets */,
+				49F44C5C3A4953B8D48ED181 /* MainViewController.m */,
+				49F4468B612B5CC96D0CA52A /* MainViewController.h */,
+				49F44A97F70EC6748280AC14 /* MainView.xib */,
 			);
 			path = DependencyInjectionTyphoon;
 			sourceTree = "<group>";
@@ -225,6 +233,7 @@
 			files = (
 				49F444D3A2F68A23BB7EE0B5 /* InfoPlist.strings in Resources */,
 				49F44A6E559AD64F1AC3A4ED /* Images.xcassets in Resources */,
+				49F44B4517B8A6A86F6DFD8B /* MainView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +295,7 @@
 			files = (
 				49F44B33E541BC29CBEBC21D /* main.m in Sources */,
 				49F44858DFD5E3F01D60928E /* AppDelegate.m in Sources */,
+				49F445DB66170C9735B46A0E /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,7 +339,7 @@
 				GCC_PREFIX_HEADER = "DependencyInjectionTyphoon/DependencyInjectionTyphoon-Prefix.pch";
 				INFOPLIST_FILE = "DependencyInjectionTyphoon/DependencyInjectionTyphoon-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/\"/** \"${PROJECT_DIR}/\"/** \"${PROJECT_DIR}/\"/**";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/\"/** \"${PROJECT_DIR}/\"/** \"${PROJECT_DIR}/\"/** \"${PROJECT_DIR}/\"/** \"${PROJECT_DIR}/\"/** \"${PROJECT_DIR}/\"/** \"${PROJECT_DIR}/\"/** \"${PROJECT_DIR}/\"/** \"${PROJECT_DIR}/\"/** \"${PROJECT_DIR}/\"/** \"${PROJECT_DIR}/\"/** \"${PROJECT_DIR}/\"/** \"${PROJECT_DIR}/\"/** \"${PROJECT_DIR}/\"/** \"${PROJECT_DIR}/\"/** \"${PROJECT_DIR}/\"/** \"${PROJECT_DIR}/\"/** \"${PROJECT_DIR}/\"/** \"${PROJECT_DIR}/\"/**";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -359,7 +369,7 @@
 				GCC_PREFIX_HEADER = "DependencyInjectionTyphoon/DependencyInjectionTyphoon-Prefix.pch";
 				INFOPLIST_FILE = "DependencyInjectionTyphoon/DependencyInjectionTyphoon-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/\"/** \"${PROJECT_DIR}/\"/** \"${PROJECT_DIR}/\"/**";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/\"/** \"${PROJECT_DIR}/\"/** \"${PROJECT_DIR}/\"/** \"${PROJECT_DIR}/\"/** \"${PROJECT_DIR}/\"/** \"${PROJECT_DIR}/\"/** \"${PROJECT_DIR}/\"/** \"${PROJECT_DIR}/\"/** \"${PROJECT_DIR}/\"/** \"${PROJECT_DIR}/\"/** \"${PROJECT_DIR}/\"/** \"${PROJECT_DIR}/\"/** \"${PROJECT_DIR}/\"/** \"${PROJECT_DIR}/\"/** \"${PROJECT_DIR}/\"/** \"${PROJECT_DIR}/\"/** \"${PROJECT_DIR}/\"/** \"${PROJECT_DIR}/\"/** \"${PROJECT_DIR}/\"/**";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
