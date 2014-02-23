@@ -1,3 +1,18 @@
 [submodule "Submodules/ThemeProduct"]
 	path = Submodules/ThemeProduct
-	url = https://moscich@bitbucket.org/moscich/themeproduct.git
+	url = https://github.com/moscich/ThemeProduct.git
+[submodule "Submodules/ProductCore"]
+        path = Submodules/ProductCore
+        url = https://github.com/moscich/ProductCore.git
+[submodule "Submodules/ProductTheme"]
+        path = Submodules/ProductTheme
+        url = https://github.com/moscich/ProductTheme.git
+[submodule "Submodules/TyphoonViewControllers"]
+        path = Submodules/TyphoonViewControllers
+        url = https://github.com/moscich/TyphoonViewControllers.git
+[submodule "Submodules/AlternativeTheme"]
+        path = Submodules/AlternativeTheme
+        url = https://github.com/moscich/AlternativeTheme.git
+[submodule "Submodules/ExtraViewControllers"]
+        path = Submodules/ExtraViewControllers
+        url = https://github.com/moscich/ExtraViewControllers.git
