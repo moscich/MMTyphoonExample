@@ -10,9 +10,11 @@
 #import "TyphoonComponentFactory.h"
 #import "TyphoonBlockComponentFactory.h"
 #import "TyphoonViewControllers.h"
-#import "ThemeProduct.h"
 #import "MainViewController.h"
-#import "AlternativeTheme.h"
+// Add imports to new added modules
+//#import "ThemeProduct.h"
+//#import "ExtraViewControllers.h"
+//#import "AlternativeTheme.h"
 
 @implementation AppDelegate
 
@@ -24,8 +26,10 @@
     [self.window makeKeyAndVisible];
 
     TyphoonComponentFactory* factory = [TyphoonBlockComponentFactory factoryWithAssemblies:@[
+            // Inject module assemblies
+//            [ExtraViewControllers assembly],
 //            [ThemeProduct assembly],
-            [AlternativeTheme assembly],
+//            [AlternativeTheme assembly],
             [TyphoonViewControllers assembly]
     ]];
 
