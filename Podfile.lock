@@ -9,15 +9,11 @@ PODS:
     - Typhoon
 
 DEPENDENCIES:
-  - TyphoonViewControllers (from `Submodules/TyphoonViewControllers/TyphoonViewControllers.podspec`)
-
-EXTERNAL SOURCES:
-  TyphoonViewControllers:
-    :path: Submodules/TyphoonViewControllers/TyphoonViewControllers.podspec
+  - TyphoonViewControllers
 
 SPEC CHECKSUMS:
-  ProductCore: 469bf981331fbab75a778ea0a65524189813333d
+  ProductCore: b2af9f7788b3de892ea14e25164b2c18650dc90b
   Typhoon: 15463de5bb1d5b65d7d59e4a85414002cd2da937
-  TyphoonViewControllers: 8c398e5611f7ef21518b1ed5ff0a75d15e11ceb0
+  TyphoonViewControllers: 6bc217ad666b19c9aecf8b3c172f050928a7f83f
 
-COCOAPODS: 0.29.0
+COCOAPODS: 0.28.0
